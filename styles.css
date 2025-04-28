@@ -1,0 +1,120 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif serif;
+  background-color: #fff8e1; /* Deep Cream */
+  color: #3a2c1a; /* Warm Text */
+  line-height: 1.6;
+}
+
+/* Nav Bar */
+nav {
+  background-color: #c36f5e; /* Rust */
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #fddd76;
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #deb83c; /* Harvest Gold */
+}
+
+/* Main Sections */
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 1em;
+  border: 4px solid #f6be00;
+}
+
+/* Headers */
+h1,
+h2 {
+  color: #2f8090; /* Burnt Orange */
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+/* Quote or Blockquote */
+blockquote {
+  font-style: italic;
+  margin-top: 1em;
+  color: #6a1b4d; /* Wine Red */
+}
+
+/* Portfolio Projects */
+.project {
+  background-color: #fff3d3;
+  border: 2px solid #f6be00;
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background: #fff3d3;
+  padding: 2em;
+  border-radius: 12px;
+  border: 2px solid #f6be00;
+}
+
+input,
+textarea,
+button {
+  padding: 0.7em;
+  font-size: 1em;
+  border: 1px solid #2f8090;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #0c6b0b;
+  color: #3a2c1a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d95d39;
+  color: #fff8e1;
+}
+
+/* Footer */
+footer {
+  background-color: #126473;
+  color: #fff8e1;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 4em;
+}
