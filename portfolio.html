@@ -1,26 +1,67 @@
-<!---portfolio.html (Portfolio Page)-->
-<main class="portfolio">
-  <h1>My Projects</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Lucky Paradis</title>
 
-  <section class="project">
-    <img src="images/project1.png" alt="Screenshot of Garden Layout app" />
-    <h2>Garden Grid Game</h2>
-    <p>
-      A playful CSS Grid project for beginners to learn layout through garden
-      design challenges.
-    </p>
-    <a href="https://github.com/luckyparadis/garden-grid" target="_blank"
-      >View on GitHub</a
-    >
-  </section>
+    <!-- Google Font: Lato -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <section class="project">
-    <img src="images/project2.png" alt="Screenshot of Qwirty clone site" />
-    <h2>Qwirty eCommerce Mock</h2>
-    <p>
-      A full site recreation to sharpen HTML/CSS skills. Features responsive
-      design and accessible layout.
-    </p>
-    <a href="https://fsa-qwirty.netlify.app/" target="_blank">Live Demo</a>
-  </section>
-</main>
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./portfolio.css" />
+  </head>
+
+  <body>
+    <!-- Header Section with Banner -->
+    <header>
+      <div class="banner">
+        <h1>Lucky Paradis</h1>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="home">
+      <h1>Portfolio</h1>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <h2>Personal Website</h2>
+          <p>
+            A professional site built with HTML, CSS, and a lot of creativity.
+          </p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+
+        <div class="portfolio-item">
+          <h2>Salon Booking App</h2>
+          <p>
+            A mobile-friendly booking app using React, Node.js, and MongoDB.
+          </p>
+          <a href="#" class="project-link">Coming Soon</a>
+        </div>
+
+        <div class="portfolio-item">
+          <h2>Creative Portfolio</h2>
+          <p>A collection of my artful, tech-blended projects.</p>
+          <a href="#" class="project-link">Coming Soon</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>© 2025 Lucky Paradis</p>
+    </footer>
+  </body>
+</html>

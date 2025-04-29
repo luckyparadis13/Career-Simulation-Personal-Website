@@ -1,25 +1,85 @@
-<!---about.html (About Page)--->
-<main class="about">
-  <h1>About Me</h1>
-  <p>
-    I’m Lucky, a passionate creative turned software engineer. I started my
-    career building confidence behind the chair and now I’m building user-first
-    experiences on the web. I love solving problems with code, laughing too
-    much, and anything that combines tech + creativity.
-  </p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Lucky Paradis</title>
 
-  <h2>Interests</h2>
-  <ul>
-    <li>UI/UX Design</li>
-    <li>Full-stack JavaScript</li>
-    <li>Fitness & wellness</li>
-    <li>Caregiving & community support</li>
-  </ul>
+    <!-- Google Font: Lato -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML, CSS, JavaScript</li>
-    <li>React, Node.js, MongoDB</li>
-    <li>Customer Service, Empathy, Leadership</li>
-  </ul>
-</main>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Lucky Paradis</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="home">
+      <h1>About Me</h1>
+
+      <div class="about-text">
+        <p>
+          Hello! I'm Lucky Paradis, a creative professional and former business
+          leader now entering the world of software development. With a strong
+          background in business operations, client experience, and creative
+          leadership, I value collaboration, innovation, and a human-centered
+          approach to every project. My work is driven by creativity,
+          problem-solving, and a passion for building technology that makes life
+          better — always with a touch of humor and heart.
+        </p>
+
+        <p>
+          I’m currently studying Fullstack Software Engineering, mastering
+          skills in JavaScript, HTML, CSS, React, Node.js, and more. When I’m
+          not coding, you can find me behind the chair in my salon, exploring
+          design trends, growing my creative portfolio, traveling, or enjoying a
+          hike outdoors.
+        </p>
+      </div>
+
+      <!-- GALLERY Section -->
+      <section class="gallery home">
+        <!-- ✅ fixed here! -->
+        <h2>A Glimpse into My World</h2>
+
+        <div class="gallery-grid">
+          <!-- Gallery Item 1 -->
+          <div class="gallery-item">
+            <img src="./images/me.jpg" alt="Lucky hiking in the mountains" />
+            <p class="gallery-caption">
+              Exploring the outdoors fuels my creativity and balance.
+            </p>
+          </div>
+
+          <!-- Gallery Item 2 -->
+          <div class="gallery-item">
+            <img src="./images/salon.jpg" alt="Lucky working in her salon" />
+            <p class="gallery-caption">
+              Years of creative leadership behind the chair.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Lucky Paradis</p>
+    </footer>
+  </body>
+</html>

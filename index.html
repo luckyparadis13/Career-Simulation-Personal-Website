@@ -4,39 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lucky Paradis | Developer & Creative</title>
+
+    <!-- Google Font: Lato -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <script src="script.js"></script>
+    <!-- Header -->
     <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <h1>Lucky Paradis</h1>
     </header>
 
-    <!---index.html (Home Page)-->
-    <main class="home">
-      <img
-        src="./images/profile.jpg"
-        alt="Lucky smiling"
-        class="profile.jpg"
-        height="400px"
-      />
-      <h1>Hi, I'm Lucky!</h1>
-      <p>
-        Creative thinker, full-stack software engineering student, and master
-        hairstylist turned techie. Passionate about building clean, accessible,
-        and impactful experiences.
-      </p>
+    <!-- Navigation -->
+    <nav aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Page Layout -->
+    <div class="page-layout">
+      <!-- Left Side Box -->
+      <div class="side-box left"></div>
+
+      <!-- Center Content -->
+      <div class="content">
+        <p class="hero-line">
+          Crafting intuitive digital experiences with the heart of a creative
+          and the mind of a strategist.
+        </p>
+
+        <!-- HOME LAYOUT START -->
+        <div class="profile-card">
+          <div class="home-layout">
+            <img
+              src="./images/profile.jpg"
+              alt="Lucky Paradis"
+              class="profile-pic"
+            />
+
+            <div class="home-text">
+              <h2>
+                Creativity has no limits — and neither do I. I'm Lucky Paradis,
+                and I turn ideas into reality through design and development.
+              </h2>
+
+              <ul class="bullet-points">
+                <li>✂️ Hairstylist for 15+ years</li>
+                <li>💻 Full-Stack Developer</li>
+                <li>🌱 Always learning</li>
+                <li>🎨 Creative thinker</li>
+                <li>🚀 Problem solver</li>
+              </ul>
+
+              <a href="portfolio.html" class="cta-button">View My Work</a>
+            </div>
+          </div>
+        </div>
+        <!-- HOME LAYOUT END -->
+      </div>
+
+      <!-- Right Side Box -->
+      <div class="side-box right"></div>
+    </div>
+
+    <!-- Inspirational Quote Section -->
+    <div class="quote">
       <blockquote>
-        “I've always been more interested in the future than in the past.” –
+        "I've always been more interested in the future than in the past." –
         Grace Hopper
       </blockquote>
-    </main>
+    </div>
 
+    <!-- Footer -->
     <footer>
       <p>© 2025 Lucky Paradis</p>
     </footer>
